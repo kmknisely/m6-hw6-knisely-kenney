@@ -1,5 +1,24 @@
-*{
+body{
   text-align: center;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: #879bcd;
+}
+
+h2{
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  color: #555555;
+}
+
+p {
+  font-family: 'Asap', sans-serif;
+  font-weight: 400;
+  color: #555555;
+
 }
 
 div {
@@ -7,12 +26,16 @@ div {
   justify-content: center;
 }
 
+div p {
+  color: #879bcd;
+
+}
 
 .big-and-bold {
   font-size: 48px;
-  font-weight: 400;
-  text-align: center;
-  transition: all 3s;
+  font-weight: 700;
+  color: #879bcd;
+  transition: all 2s;
 }
 
 
